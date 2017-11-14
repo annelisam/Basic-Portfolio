@@ -1,9 +1,10 @@
 header {
-    width: 960px;
+    width: 100%;
+    clear: both;
+    overflow: auto;
     margin-left: 100px;
     padding: 20px;
-    position: absolute;
-    height: 50px;
+    padding-bottom: 0px;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
     line-height: 2em;
     letter-spacing: 0em;
     font-size: 13px;
+    color: #474747;
 }
 
 #header-name {
@@ -25,6 +27,8 @@ body {
 #header-name h1 {
     letter-spacing: 3px;
     text-transform: lowercase;
+    color: #474747;
+    padding-left: 2px;
 }
 
 #header-nav {
@@ -35,14 +39,107 @@ body {
 }
 #header-nav li{
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 #header-nav a{
     display: inline-block;
-    padding-left: 11px;
-    color: #000;
+    padding-left: 6px;
+    color: #474747;
     text-decoration: none;
 }
+
+#header-nav a:hover {
+    color: #fff;
+}
+
+div.body1 {
+    width:960px;
+    height: 200px;
+    margin-left: 100px;
+    padding-left: 20px;
+    background: #f7baa1;
+}
+
+#main-content {
+    float: left;
+    width: 70%;
+    border: 1px solid #a8a7a7;
+    margin-right: 30px;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#main-content h3 {
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #f7baa1;
+    text-align: center;
+}
+
+#main-content p {
+    text-transform: lowercase;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #474747;
+    text-align: justify;
+    font-size: 9pt;
+}
+
+#contact {
+    float: right;
+    width: 20%;
+    height: 125px;
+    border: 1px solid #a8a7a7;
+    background: #fff;
+    padding: 10px;
+    padding-top:0px;
+    opacity: 0.9;
+}
+
+#contact h3 {
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #f7baa1;
+    text-align: center;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  float: left;
+  opacity: 0.9;
+}
+
+#github{
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+#linkedin{
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+#stack{
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
 
 
